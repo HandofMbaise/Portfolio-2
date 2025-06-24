@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+#logo{
+    color: purple;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.nav-bar{
+    place-items: center;
+    margin-top: 10px;
+    background-color: green;
+    
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar ul a{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar ul a:hover{
+    background-color: yellow;
+    color: #000;
+}
+
+.nav-bar ul a:active{
+    background-color: lime;
+    color: red;
+}
+
+.container{
+    margin: 10px 10px;
+}
+
+img{
+    width: 10em;
+    height: 10em;
+    border-radius: 10em;
+}
+
+#intro{
+    margin-left: 13px;
+}
+
+ #Hi-span{
+    color: red;
+}
+
+#C-span{
+    color: yellow;
+}
+
+#read-me{
+   position: absolute;
+   top: 13em;
+   left: 16em;
+   text-align: center;
+   color: green;
+ 
+}
+
+#welcome-msg{
+    margin: 10em 0px 0px 20em;
+}
+
+#overview{
+    position: absolute;
+    top: 25em;
+    left: 15em;
+    color: yellow;
+}
+
+.skills-container{
+    position: absolute;
+    top: 60em;
+    left: 13em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: 10px;
+
+}
+
+.skills{
+    border: solid #fff;
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    padding: 40px 0 0 0;
+    margin-right: 5em;
+    font-weight: 500;
+    
+}
+
+#icon{
+    position: absolute;
+    top: 80em;
+    left: 75em;
+    height: 20vh;
+}
+
+#hfm-icon{
+    font-size: 40px;
+}
+
+#hfm{
+    color: lime;
+}
+
+#Tech{
+    color: red;
+}
+
+#made-with{
+    color: lime;
+}
+
+#special{
+    color: purple; 
+}
+
+
+@media screen and (min-width: 150px) and (max-width: 600px){
+
+ /* body{
+    background-color: orange;
+} */
+
+#logo{
+    margin-right: 45px;
+}
+
+
+.nav-bar ul a{
+    margin-right: 20px;
+}
+
+ #read-me{
+    top: 14em;
+    left: 0.7em;
+
+}
+
+   #welcome-msg{
+    margin: auto;
+    margin-top: 5em;
+}
+
+
+#overview{
+    top: 24.5em;
+    left: 0.2em;
+    color: lime;
+    
+}
+
+.skills-container{
+    top: 54em;
+    left: 2em;
+    display: block;
+}
+
+
+
+#icon{
+    left: 16em;
+    top: 86em;
+}
+
+}
+
+
+
+
+
+
+
+
